@@ -1,0 +1,73 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+136
+"  COMPARESOFT V 1.0
+Maker: Miguel Andres Diaz
+this software compare birth of two person
+Type/input the year birth of first person: "
+5
+1
+7
+v_year1
+4
+1
+49
+"type/input the year birth of the second person "
+5
+1
+7
+v_year2
+7
+0
+1
+32
+v_year1 > 2021 OR v_year2 > 2021
+6
+2
+6
+v_age1
+13
+2021- v_year1
+6
+v_age2
+13
+2021- v_year2
+7
+0
+1
+15
+v_age1 = v_age2
+7
+0
+1
+13
+v_age1<v_age2
+4
+1
+28
+" the youngest is " , v_age2
+13
+4
+1
+28
+" the youngest is " , v_age1
+13
+13
+4
+1
+20
+" the both are same"
+13
+13
+4
+1
+71
+" ERR: Some of the year types are wrong- both should be less than 2021"
+13
+1
