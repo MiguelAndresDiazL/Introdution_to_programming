@@ -1,0 +1,94 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+123
+" SOFTIVA V 1.0 - Maker: Miguel Andres Diaz - this software use 4 data and add it 19% of VAT- type/input the first data:  "
+5
+1
+7
+v_data1
+4
+1
+32
+" type/input the second data:  "
+5
+1
+7
+v_data2
+4
+1
+31
+" type/input the third data:  "
+5
+1
+7
+v_data3
+4
+1
+33
+" type/input the quarter data:  "
+5
+1
+7
+v_data4
+7
+0
+1
+64
+v_data1 <=  0 OR v_data2 <=  0 OR v_data3 <=  0 OR v_data4 <=  0
+6
+3
+9
+v_number1
+24
+v_data1 + (0.19*v_data1)
+9
+v_number2
+24
+v_data2 + (0.19*v_data2)
+9
+v_number3
+24
+v_data3 + (0.19*v_data3)
+6
+2
+9
+v_number4
+24
+v_data4 + (0.19*v_data4)
+7
+v_total
+43
+v_number1 + v_number2+ v_number3+ v_number4
+4
+1
+23
+" Data 1: " , v_number1
+4
+1
+25
+ " Data 2: " , v_number2 
+4
+1
+23
+" Data 3: " , v_number3
+4
+1
+23
+" Data 4: " , v_number4
+4
+1
+36
+"IVA: 19%- Cuenta total: " ,v_total 
+13
+4
+1
+68
+" ERR: some of the dates are wrong- everyone should be more than 0 "
+13
+1
