@@ -1,0 +1,67 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+91
+" AGEOFSOFT- Maker: Miguel Andres Diaz- this software is about determinate the person age "
+4
+1
+18
+" input your age "
+5
+1
+5
+ Age1
+7
+0
+1
+8
+Age1 <=0
+7
+0
+1
+21
+Age1 >=6 AND Age1 <18
+7
+0
+1
+22
+Age1 >=18 AND Age1 <45
+7
+0
+1
+22
+Age1 >=45 AND Age1 <90
+4
+1
+23
+" you are a matusalen "
+13
+4
+1
+25
+" you are a older adult "
+13
+13
+4
+1
+22
+" you are adolescent "
+13
+13
+4
+1
+20
+" you are a child " 
+13
+13
+4
+1
+42
+" ERR: the age most be between 0 and 100 "
+13
+1

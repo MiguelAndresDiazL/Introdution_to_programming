@@ -1,0 +1,100 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+132
+" weekdaysoft-   maker: Miguel Andres Diaz - this software is about when you put a number and it will tell you the day of the week "
+4
+1
+34
+" input a number between 1 and 7 "
+5
+1
+5
+v_day
+7
+1
+1
+24
+v_day >= 1 OR v_day <= 7
+7
+0
+1
+8
+v_day= 1
+7
+0
+1
+8
+v_day= 2
+7
+0
+1
+8
+v_day= 3
+7
+0
+1
+8
+v_day= 4
+7
+0
+1
+8
+v_day= 5
+7
+0
+1
+8
+v_day= 6
+4
+1
+21
+" the day is sunday "
+13
+4
+1
+23
+" the day is saturday "
+13
+13
+4
+1
+21
+" the day is friday "
+13
+13
+4
+1
+23
+" the day is thursday "
+13
+13
+4
+1
+24
+" the day is wednesday "
+13
+13
+4
+1
+22
+" the day is tuesday "
+13
+13
+4
+1
+21
+" the day is monday "
+13
+13
+4
+1
+44
+ " ERR: the number must be between 1 and 7 "
+13
+1
