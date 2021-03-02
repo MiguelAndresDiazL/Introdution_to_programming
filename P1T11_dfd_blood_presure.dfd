@@ -1,0 +1,67 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+139
+" BloodPresureSOFT- V1.0- Maker: Miguel  Diaz- Miguel Romero- Juan Villamil- Daniel Nuñez- this software is about calculate blood presure "
+4
+1
+48
+" input your presure systolic and diastolic  : "
+5
+1
+22
+v_systolic,v_diastolic
+7
+0
+1
+78
+v_systolic> 90  AND  v_diastolic< 60 OR v_systolic> 180  AND v_diastolic< 110 
+7
+1
+1
+35
+v_systolic<=159 AND v_diastolic<=99
+7
+1
+1
+35
+v_systolic<=139 AND v_diastolic<=89
+7
+1
+1
+35
+v_systolic<=120 AND v_diastolic<=80
+4
+1
+33
+" Your blood pressure is normal "
+13
+4
+1
+33
+" Your blood pressure is normal "
+13
+13
+4
+1
+28
+" you have prehypertension "
+13
+13
+4
+1
+34
+" You have stage 1 hypertension  "
+13
+13
+4
+1
+117
+" ERR: the systolic pressure should not be between 80 and 190-  diastolic pressure should not be between 60 and 130 "
+13
+1
