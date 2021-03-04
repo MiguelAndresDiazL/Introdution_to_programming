@@ -1,0 +1,67 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+106
+" LARGESOFT-  maker: Miguel Andres Diaz- this is about determinate which is the largest of three numbers "
+4
+1
+27
+" input the three numbers "
+5
+1
+14
+V_N1,V_N2,V_N3
+7
+1
+1
+34
+V_N1 > 0 AND V_N2 > 0 AND V_N3 > 0
+7
+0
+1
+27
+V_N1 = V_N2 AND V_N1 = V_N3
+7
+0
+1
+27
+V_N1 > V_N2 AND V_N1 > V_N3
+7
+0
+1
+27
+V_N2 > V_N1 AND V_N2 > V_N3
+4
+1
+42
+" The largest is the third number:  ",V_N3
+13
+4
+1
+43
+" The largest is the second number:  ",V_N2
+13
+13
+4
+1
+42
+" The largest is the first number:  ",V_N1
+13
+13
+4
+1
+39
+" The three numbers are equal :  ",V_N1
+13
+13
+4
+1
+40
+" ERR: the person have a negative year "
+13
+1

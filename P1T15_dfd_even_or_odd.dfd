@@ -1,0 +1,40 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+134
+" EVENODDSOFT- MAKER: miguel andres Diaz  -this software is about indicate if you put a number it will tell you if it is even or odd "
+4
+1
+37
+" input a number only whole numbers "
+5
+1
+4
+v_N1
+6
+1
+5
+Total
+10
+v_N1 mod 2
+7
+0
+1
+9
+Total = 0
+4
+1
+23
+" your number is odd  "
+13
+4
+1
+23
+" your number is even "
+13
+1
