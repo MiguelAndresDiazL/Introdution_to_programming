@@ -1,0 +1,54 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+108
+" hypotenuseSOFT- Maker: Miguel Andres Diaz- this software is about calculate hypotenuse of right triangle "
+4
+1
+41
+" input the two sides of right triangle "
+5
+1
+9
+v_C1,v_C2
+7
+1
+1
+19
+v_C1> 0 AND v_C2 >0
+6
+2
+2
+C2
+11
+(v_C2*v_C2)
+2
+C1
+11
+(v_C1*v_C1)
+6
+2
+4
+CSUM
+9
+(C1)+(C2)
+4
+RAIZ
+10
+sqrt(CSUM)
+4
+1
+27
+" the hypotenuse is: ",RAIZ
+13
+4
+1
+38
+" ERR: The sides most be more than 0 "
+13
+1
