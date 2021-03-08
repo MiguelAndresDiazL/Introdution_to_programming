@@ -1,0 +1,82 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+138
+" softtax v1.0 - Maker: Miguel Andres Diaz - Description: this software  calculate tax (19%) by n products --> Input the total products: "
+5
+1
+12
+v_total_prod
+7
+0
+1
+17
+v_total_prod <= 0
+6
+3
+7
+v_gross
+1
+0
+7
+v_total
+1
+0
+5
+v_tax
+1
+0
+8
+1
+1
+i
+1
+1
+1
+1
+12
+v_total_prod
+1
+1
+1
+4
+1
+36
+" input the value by the product ",i
+5
+1
+12
+v_value_prod
+6
+1
+7
+v_gross
+22
+v_gross + v_value_prod
+10
+6
+2
+5
+v_tax
+12
+v_gross*0.19
+7
+v_total
+15
+v_gross + v_tax
+4
+1
+116
+" the gross value is: ",v_gross," - the tax value (19%): ", v_tax," and the total value in the invoice is: ",v_total
+13
+4
+1
+49
+" ERR: The number entered cannot be less than 0 "
+13
+1

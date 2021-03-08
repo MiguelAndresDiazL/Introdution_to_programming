@@ -1,0 +1,103 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+225
+" softsalary v1.0 - Maker: Miguel Diaz- Juan Villamil and Miguel Romero Description: this software is about calculte the average salary- total salary and the highest salary of N employees --> input the total employees days  "
+5
+1
+13
+v_total_emplo
+7
+0
+1
+18
+v_total_emplo <= 0
+6
+3
+14
+average_salary
+1
+0
+13
+v_highest_sal
+1
+0
+12
+total_salary
+1
+0
+8
+1
+1
+i
+1
+1
+1
+1
+13
+v_total_emplo
+1
+1
+1
+4
+1
+47
+" input the gross salary by the employeer: ",i 
+5
+1
+11
+v_gross_sal
+4
+1
+41
+" input the working days by employeer ",i
+5
+1
+11
+v_work_days
+6
+2
+8
+v_salary
+30
+(v_gross_sal/30) * v_work_days
+12
+total_salary
+23
+total_salary + v_salary
+10
+7
+0
+1
+24
+v_salary > v_highest_sal
+13
+6
+1
+13
+v_highest_sal
+8
+v_salary
+13
+6
+1
+14
+average_salary
+28
+total_salary / v_total_emplo
+4
+1
+126
+" The total salary is:$ ",total_salary, " and the average is:$ ",average_salary, " and the highest salary is:$ ",v_highest_sal
+13
+4
+1
+49
+" ERR: the number entered cannot be less than 0 "
+13
+1
