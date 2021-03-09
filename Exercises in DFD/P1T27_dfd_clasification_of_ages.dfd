@@ -1,0 +1,145 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+236
+"  Softclasificateage - Makers: Miguel Diaz-Oscar Cardozo and Juan Buitrago - Decription: this software is about calculate how matusalen,older adults,adults,adolescents and childs are in N persons  ----> input your number of persons : "
+5
+1
+15
+v_total_persons
+7
+1
+1
+20
+v_total_persons >= 1
+6
+3
+8
+v_minors
+1
+0
+8
+v_adults
+1
+0
+7
+v_older
+1
+0
+6
+2
+11
+v_matusalen
+1
+0
+8
+v_adoles
+1
+0
+8
+1
+1
+i
+1
+1
+1
+1
+15
+v_total_persons
+1
+1
+1
+4
+1
+30
+" input the age for person ",i
+5
+1
+5
+v_age
+7
+0
+1
+11
+v_age >= 90
+7
+0
+1
+11
+v_age >= 60
+7
+0
+1
+11
+v_age >= 45
+7
+0
+1
+12
+v_age >= 18 
+7
+0
+1
+10
+v_age <= 0
+6
+1
+8
+v_minors
+12
+v_minors + 1
+13
+4
+1
+38
+" ERR: the age cannot be less than 0 "
+13
+13
+6
+1
+8
+v_adoles
+12
+v_adoles + 1
+13
+13
+6
+1
+8
+v_adults
+12
+v_adults + 1
+13
+13
+6
+1
+7
+v_older
+11
+v_older + 1
+13
+13
+6
+1
+11
+v_matusalen
+15
+v_matusalen + 1
+13
+10
+4
+1
+199
+" the children are: " ,v_minors, " the total adolescents are: ",v_adoles, " the total adults are: " ,v_adults, " the total older adults are: " ,v_older, " and the total matusalens are: " ,v_matusalen
+13
+4
+1
+42
+" ERR: the N persons most be more than 1 "
+13
+1
