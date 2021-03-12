@@ -1,0 +1,226 @@
+ Dfd (c)
+1
+1
+5
+0
+0
+4
+1
+120
+" SOFTSALARY V1.0- Maker: Miguel Andres Diaz - Description: this software calculate monthly payroll for many employees "
+12
+1
+17
+p_total_employees
+1
+17
+v_total_employees
+6
+3
+9
+v_average
+1
+0
+16
+v_total_salaries
+1
+0
+14
+v_total_health
+1
+0
+6
+3
+15
+v_total_pension
+1
+0
+15
+v_total_payroll
+1
+0
+6
+v_SMLV
+6
+908526
+8
+1
+1
+i
+1
+1
+1
+1
+17
+v_total_employees
+1
+1
+1
+12
+1
+17
+p_salary_employee
+1
+8
+v_salary
+12
+1
+8
+p_health
+1
+26
+v_salary, v_SMLV, v_health
+12
+1
+9
+p_pension
+1
+27
+v_salary, v_SMLV, v_pension
+6
+3
+16
+v_total_salaries
+27
+v_total_salaries + v_salary
+14
+v_total_health
+25
+v_total_health + v_health
+15
+v_total_pension
+27
+v_total_pension + v_pension
+10
+6
+2
+15
+v_total_payroll
+51
+v_total_salaries + v_total_health + v_total_pension
+9
+v_average
+35
+v_total_payroll / v_total_employees
+4
+1
+252
+" for ",v_total_employees, " employees: the total salaries is: $",v_total_salaries, " - the total health is: $",v_total_health, "- the total pension is: $",v_total_pension, " - the total payroll is: $",v_total_payroll, " and the average is: ",v_average
+1
+2
+1
+17
+p_total_employees
+1
+17
+v_total_employees
+1
+45
+this sub-subprogram returns V_TOTAL_EMPLOYEES
+4
+1
+30
+" input the total employees: "
+5
+1
+17
+v_total_employees
+9
+1
+22
+v_total_employees <= 0
+4
+1
+92
+" ERR: the total employees should be greater than zero --> input again the total employees "
+5
+1
+17
+v_total_employees
+11
+3
+2
+1
+17
+p_salary_employee
+1
+8
+v_salary
+1
+48
+this sub-program return the salary by a employee
+6
+3
+14
+v_gross_salary
+17
+1+random(2000000)
+11
+v_work_days
+12
+1+random(30)
+8
+v_salary
+31
+(v_gross_salary/30)*v_work_days
+3
+2
+1
+8
+p_health
+1
+27
+v_salary, v_SMLV , v_health
+1
+79
+this sub-program calculate the health for a employee with the salary (V_SALARY)
+7
+0
+1
+17
+v_salary < v_SMLV
+6
+1
+8
+v_health
+16
+v_salary * 0.125
+13
+6
+1
+8
+v_health
+14
+v_SMLV * 0.125
+13
+3
+2
+1
+9
+p_pension
+1
+27
+v_salary, v_SMLV, v_pension
+1
+80
+this sub-program calculate the pension for a employee with the salary (V_SALARY)
+7
+0
+1
+17
+v_salary < v_SMLV
+6
+1
+9
+v_pension
+15
+v_salary * 0.16
+13
+6
+1
+9
+v_pension
+13
+v_SMLV * 0.16
+13
+3
