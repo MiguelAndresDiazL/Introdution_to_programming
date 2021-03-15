@@ -1,0 +1,123 @@
+ Dfd (c)
+1
+1
+2
+0
+0
+4
+1
+142
+" COLDHOTNUMBER V1.0 - Maker:Miguel Andres Diaz Description: this MathGame try simulate HOT and COLD lind number- you have 5 tries (intents) "
+6
+2
+12
+v_sys_number
+15
+1 + random(100)
+9
+v_intents
+1
+5
+12
+1
+14
+p_input_number
+1
+13
+v_user_number
+9
+1
+47
+v_sys_number != v_user_number AND v_intents > 0
+6
+2
+9
+v_intents
+13
+v_intents - 1
+5
+v_dif
+28
+v_sys_number - v_user_number
+7
+0
+1
+15
+abs(v_dif) <= 5
+7
+0
+1
+10
+v_dif > 0 
+4
+1
+11
+" Cold up "
+13
+4
+1
+13
+" Cold down "
+13
+13
+4
+1
+21
+" you are hooooooot "
+13
+12
+1
+14
+p_input_number
+1
+13
+v_user_number
+11
+7
+0
+1
+14
+v_intents > 0 
+4
+1
+55
+" SORRY -> you lost the secret number is:",v_sys_number
+13
+4
+1
+39
+" CONGRATULATIONS -> you won the game "
+13
+1
+2
+1
+14
+p_input_number
+1
+13
+v_user_number
+1
+45
+this sub-program return the user valid number
+4
+1
+36
+" input a number between 1 and 100 "
+5
+1
+13
+v_user_number
+9
+1
+40
+v_user_number < 1 or v_user_number > 100
+4
+1
+80
+" ERR: your number should be inside beetween 1 and 100 -input again your number"
+5
+1
+13
+v_user_number
+11
+3
