@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1b2c6ec1-d214-46a2-ad1b-52a4179d7442" name="Default Changelist" comment="" />
+    <list default="true" id="17e80bca-2887-4a25-b184-917427cc1a55" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,7 +10,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ProjectId" id="1pqmPPxQ7dqEsLx45trJpHRfyEm" />
+  <component name="ProjectId" id="1pyg2xgPDAThlBRHFZFTsKdBEpQ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
@@ -74,7 +74,7 @@
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="usta.fis.Main" />
-      <module name="P1T35_JAVA_INPUT_NUMBER" />
+      <module name="P1T36_JAVA_System-out-print" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
@@ -91,11 +91,11 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="1b2c6ec1-d214-46a2-ad1b-52a4179d7442" name="Default Changelist" comment="" />
-      <created>1615918971138</created>
+      <changelist id="17e80bca-2887-4a25-b184-917427cc1a55" name="Default Changelist" comment="" />
+      <created>1616160548855</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1615918971138</updated>
+      <updated>1616160548855</updated>
     </task>
     <servers />
   </component>
