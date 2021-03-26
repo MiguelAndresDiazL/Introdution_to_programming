@@ -1,7 +1,7 @@
 package usta.fis;
 
-/*AUTHOR    : Miguel Andres Diaz Lache
- DATE       : 25 March of 2021
+/*AUTHOR: Miguel Andres Diaz Lache
+ DATE: 25 March of 2021
  DESCRIPTION: this software calculate the calculate the cost of parcel service in some countrys
  */
 import java.util.Scanner;
@@ -23,29 +23,29 @@ public class Main {
         p_show_info_program();
 
         Scanner keyboard = new Scanner(System.in);
-        System.out.println("input the country of destination(1-5)");
+        System.out.println("input the country of destination 1(north america), 2(central america), 3(south america), 4(europe), 5(asia)");
         int v_country = keyboard.nextInt();
         if(validate_country(v_country)){
-            System.out.println("input the weight of service");
+            System.out.println("input the weight of service(kg)");
             double v_weight = keyboard.nextDouble();
 
             double v_total_cost = calculate_weight(v_country,v_weight);
 
-            System.out.println("the total cost of the packages is $"+v_total_cost+" for " + get_name_country(v_country));
-        }else{
-            System.err.println("Country not valid");
+            System.out.println("the total cost of the packages is: $"+v_total_cost+" for " + get_name_country(v_country));
+        }while(v_country < 1 || v_country > 5){
+            System.err.println("Country not valid input again your country 1(north america), 2(central america), 3(south america), 4(europe), 5(asia)");
+            v_country = keyboard.nextInt();
+
         }
-
-
     }
     public static void p_show_info_program() {
 
-        //DESCRIPTION:this method show info program (software)
-        System.out.println("-------------------------------");
-        System.out.println("!     country-parcel    V1.0  !");
-        System.out.println("! Maker:Miguel Andres Diaz    !");
-        System.out.println("! Date: 2021-march-25         !");
-        System.out.println("-------------------------------");
+        //DESCRIPTION:this method show info program (maker,date and name of the software)
+        System.out.println("╔═════════════════════════════╗");
+        System.out.println("║     country-parcel V1.0     ║");
+        System.out.println("║ Maker:Miguel Andres Diaz    ║");
+        System.out.println("║ Date: 2021-march-25         ║");
+        System.out.println("╚═════════════════════════════╝");
     }
 
     public static boolean validate_country(int v_country){
@@ -85,7 +85,5 @@ public class Main {
         }
         return 0;
     }
-
-
-    } //comando final ojo
+    }
 
