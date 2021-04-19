@@ -59,9 +59,9 @@ public class Main {
 
     public static void p_show_info_program (){
         System.out.println("╔═════════════════════════════╗");
-        System.out.println("║     calculator- soft V1.0   ║");
+        System.out.println("║    sum-subtract-soft V1.0   ║");
         System.out.println("║  Maker:Miguel Andres Diaz   ║");
-        System.out.println("║  Date: 2021-April-15        ║");
+        System.out.println("║   Date: 2021-April-15       ║");
         System.out.println("╚═════════════════════════════╝");
     }
 
