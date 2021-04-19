@@ -33,6 +33,7 @@ public class Main {
                         n2= entrada.nextInt();
                         resultado = (n1+n2);
                         System.out.println("your sum is " +resultado);
+                        break;
 
 
                     case 2:
@@ -43,6 +44,7 @@ public class Main {
                         n2=entrada.nextInt();
                         resultado = (n1-n2);
                         System.out.println("your subtract is: " +resultado);
+                        break;
 
 
                     case 3:
@@ -53,6 +55,7 @@ public class Main {
                         n2=entrada.nextInt();
                         resultado= (n1*n2);
                         System.out.println("your multiplication is: " +resultado);
+                        break;
 
 
                     case 4:
@@ -63,10 +66,12 @@ public class Main {
                         n2=entrada.nextInt();
                         resultado= (n1/n2);
                         System.out.println("your division is: "+resultado);
+                        break;
 
 
                     default:
                         System.err.print("ERR:not valid option");
+                        break;
                 }
             }
 
@@ -74,7 +79,7 @@ public class Main {
     }
     public static void p_show_info_program() {
         System.out.println("╔═════════════════════════════╗");
-        System.out.println("║     sum-and-subtract V1.0   ║");
+        System.out.println("║     calculator-soft  V1.0   ║");
         System.out.println("║  Maker:Miguel Andres Diaz   ║");
         System.out.println("║  Date: 2021-April-15        ║");
         System.out.println("╚═════════════════════════════╝");
