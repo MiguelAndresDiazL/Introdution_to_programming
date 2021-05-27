@@ -8,16 +8,30 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-	p_show_info_program();
+        p_show_info_program();
+        int multiplication=0;
+        int division=0;
         int v_sum_height=0;
-        double v_average_height;
-        for (int i=1;i<=5;i++){
-            System.out.println("height of children:["+i+"]");
-            v_sum_height=v_sum_height+p_children_height();
+       double v_average_height;
+        for (int i=1;i<=5;i++) {
+            System.out.println("height of children:[" + i + "]");
+            v_sum_height = v_sum_height + p_children_height();
+            if(i==3){
+                multiplication= p_children_height()*50;
+            }else
+                division= p_children_height()/10;
 
         }
+
+
+
+
+
+
         v_average_height= v_sum_height/5;
         System.out.println("The average height is:"+v_average_height);
+        System.out.println("MULTIPLICATION: "+multiplication);
+        System.out.println("DIVISON: "+division);
     }
     public static void p_show_info_program() {
         //DESCRIPTION: this method show info program (software)
@@ -33,8 +47,8 @@ public class Main {
         System.out.println("Input the childrens height in Cm");
         int v_height =keyboard.nextInt();
         while (v_height < 50 || v_height > 200){
-        System.err.println("ERR: the height cannot most be less 50 Cm and cannot more than 200 Cm");
-         v_height =keyboard.nextInt();
+            System.err.println("ERR: the height cannot most be less 50 Cm and cannot more than 200 Cm");
+            v_height =keyboard.nextInt();
         }
         return v_height;
     }
