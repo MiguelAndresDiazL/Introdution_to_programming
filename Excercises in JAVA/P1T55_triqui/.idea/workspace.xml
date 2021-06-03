@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="13387127-97fe-4de1-88cf-565018e60cde" name="Default Changelist" comment="" />
+    <list default="true" id="6723dfc1-0d9c-40d5-832c-0d9de8570dfd" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,6 +10,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="package-info" />
         <option value="Class" />
       </list>
     </option>
@@ -17,7 +18,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ProjectId" id="1sTubKJZ458CEHZQNbjiYaapvfV" />
+  <component name="ProjectId" id="1tALRT5U8gPLj6Sdd32vD9z0PCQ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -26,18 +27,15 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../P1T54_multiclass" />
   </component>
   <component name="RunManager">
-    <configuration name="Bidimensional" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="co.edu.usta.tunja.array.bidimensional.Bidimensional" />
-      <module name="P1T50_bidimensionalarray" />
+    <configuration name="triqui" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="co.edu.usta.tunja.triqui.triqui" />
+      <module name="P1T55_triqui" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="co.edu.usta.tunja.array.bidimensional.*" />
+          <option name="PATTERN" value="co.edu.usta.tunja.triqui.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -47,18 +45,18 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Bidimensional" />
+        <item itemvalue="Application.triqui" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="13387127-97fe-4de1-88cf-565018e60cde" name="Default Changelist" comment="" />
-      <created>1620908972757</created>
+      <changelist id="6723dfc1-0d9c-40d5-832c-0d9de8570dfd" name="Default Changelist" comment="" />
+      <created>1622206945142</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1620908972757</updated>
+      <updated>1622206945142</updated>
     </task>
     <servers />
   </component>

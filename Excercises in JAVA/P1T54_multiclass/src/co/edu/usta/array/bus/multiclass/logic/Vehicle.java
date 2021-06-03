@@ -118,8 +118,14 @@ public class Vehicle {
         //TODO: create a code to count the empty and filled places
 
         for (int i = 0; i < places.length; i++) {
-            for (int j = 0; j < ; j++) {
-                
+            for (int j = 0; j <places[0].length ; j++) {
+                if(places[i][j]=="D"){
+                    EmptyPlaces++;
+                }else{
+                    if (places[i][j]=="O"){
+                        filledplaces++;
+                    }
+                }
             }
         }
 
